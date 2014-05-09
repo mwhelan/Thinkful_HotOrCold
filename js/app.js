@@ -32,8 +32,6 @@ var guessList;
 function newGame() {
     disableInput(false);
     secretNumber = getSecretNumber();
-    /* FOR DEBUGGING ONLY. DON'T FORGET TO REMOVE! */
-    $(".game").append("<p>Answer is " + secretNumber + "</p>");
 
     feedback = "Make your Guess!";
     userGuess = "";
